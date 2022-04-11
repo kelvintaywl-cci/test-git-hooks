@@ -1,7 +1,5 @@
 language: python
 
-# test
-
 python:
 
   - "3.7"
