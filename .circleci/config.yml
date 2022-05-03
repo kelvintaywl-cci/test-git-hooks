@@ -6,8 +6,8 @@ jobs:
     docker:
       - image: cimg/base:stable
     steps:
-      - run: echo "small world, huh!"
-      - run: exit 0
+      - run: echo "small world, huh?"
+      - run: exit 1
 
 workflows:
   main-check:
