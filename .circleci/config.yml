@@ -6,5 +6,5 @@ jobs:
     docker:
       - image: cimg/base:stable
     steps:
-      - run: echo "small world, huh!"
+      - run: echo "small world, huh?"
       - run: exit 1
